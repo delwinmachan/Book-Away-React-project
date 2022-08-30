@@ -1,3 +1,5 @@
+# Book-Away
+
 This application is a React front-end project for hotel-room booking.It uses data from http://fake-hotel-api.herokuapp.com/api/hotels api.
 Inorder to maintain a full-fledged applicaton feel,most of the data is stored in localstorage of your browser.
 so in the first run,you would have to press refresh button near search button in home page to invoke api call and get data.
