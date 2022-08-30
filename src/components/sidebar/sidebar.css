@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
+
+#homeSidebar {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  box-shadow: 3px 15px 1px -10px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 580px) {
+  #smallScreen {
+    display: none;
+  }
+  #headerSmallScreen {
+    display: none;
+  }
+}

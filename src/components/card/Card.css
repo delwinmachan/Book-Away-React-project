@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
+#hcard.card {
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  width: 100%;
+  height: fit-content;
+  margin-top: 5%;
+  font-family: "Playfair Display", serif;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+  border: solid 1px;
+  border-radius: 20px;
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+  text-align: left;
+}
+#detailsHcard.card {
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  width: 100%;
+  height: fit-content;
+  margin-top: 5%;
+  font-family: "Playfair Display", serif;
+  border: none;
+  border-radius: 20px;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+  border: solid 3px #52545c;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.40s ease-in;
+  text-align: left;
+}
+#detailsHcard:hover {
+  transform: translateY(-10px) rotate(0deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+.HcardContainer {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#hcard.card:hover {
+  background-color: #f3f2f2;
+  border-radius: 20px;
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0);
+}
+.FavIcon {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+  margin-bottom: 3%;
+}
+.Hbody {
+  width: 50%;
+}
+.NoHeart:hover {
+  color: rgb(247, 137, 11);
+}
+.Heart {
+  color: rgb(192, 39, 39);
+}
+.Heart:hover {
+  color: rgb(40, 37, 37);
+}
+.Hlist {
+  margin-bottom: 8%;
+  font-family: "Poppins", sans-serif;
+}
+.Harrow {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 1%;
+}
+.Htitle.h5 {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 5%;
+  margin-left: 0.7%;
+}
+.Hborder {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  height: 0.2vh;
+  background-color: rgb(97, 94, 94);
+
+  border-radius: 20px;
+}
+
+.Hvideo_holder {
+  height: 75vh;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  width: 50%;
+}
+.Hvideo__container {
+  border-radius: 20px;
+
+  width: 90%;
+  height: fit-content;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 0px !important;
+}
+.hidden {
+  display: none;
+}
+.Hicon {
+  display: flex;
+
+  background-color: #777;
+  margin-right: 10px;
+}
+.TitleHolder {
+  display: flex;
+  justify-content: space-evenly;
+}
+#rating {
+  display: flex;
+}
+@media screen and (max-width: 992px) {
+  .HcardContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .Hvideo_holder {
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+  }
+  .Hbody.card-body {
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Htitle.h5 {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 1%;
+    margin-left: 0.7%;
+  }
+}

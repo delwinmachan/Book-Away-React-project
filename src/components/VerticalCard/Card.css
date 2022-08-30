@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
+
+#Vcard {
+  font-family: "Poppins", sans-serif;
+  box-shadow: 3px 15px 8px -2px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+}
+#Vcard:hover {
+  transform: translateY(-3px) rotate(0deg);
+}
+
+.Vcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  border-radius: 15px;
+}
+.Vcontent {
+  padding: 1px 15px 0px 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin-top: 0px;
+}
+.Vdummy_text {
+  font-size: 12px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.Vimage_container {
+  width: "100%";
+  border-radius: 8px 8px 0px 0px;
+  background-color: grey;
+  height: 25vh;
+  margin-bottom: 0px;
+  display: flex;
+}
+.Vimage {
+  width: 100%;
+  margin: 0px;
+  border-radius: 7px 7px 0px 0px;
+  object-fit: cover;
+  object-position: 0px -110px;
+}
+#prizeHolder {
+  background-color: black;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  color: rgb(255, 255, 254);
+  font-size: small;
+  font-weight: bold;
+
+  border-top-left-radius: 0px 0px;
+  border-top-right-radius: 0px 0px;
+  border-bottom-left-radius: 0px 0px;
+  border-bottom-right-radius: 30px 24px;
+  margin: 0%;
+  opacity: 0.8;
+}
+.Vtitle {
+  margin: 0px;
+  width: 100%;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.Vprize {
+  display: flex;
+  margin-left: 1px;
+  margin-right: 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Vbutton {
+  display: flex;
+  width: 100%;
+  margin-top: 8%;
+  justify-content: flex-end;
+}
+#cart {
+  width: 100%;
+}
+#Vbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 10%;
+}
